@@ -55,6 +55,7 @@ class loginScreen extends StatelessWidget {
                               crossAxisAlignment: CrossAxisAlignment.center,
                               children: <Widget>[
                                 Text('Enter E-Mail'),
+                                Icon(Icons.home),
                                 TextField(
                                   controller: nameController,
                                   decoration: InputDecoration(
@@ -71,7 +72,6 @@ class loginScreen extends StatelessWidget {
                                   controller: passwordController,
                                   decoration: InputDecoration(
                                     focusColor: Colors.blue,
-
                                   ),
                                   cursorColor: Colors.red,
                                   obscureText: true,
